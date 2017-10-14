@@ -1,10 +1,4 @@
 [
-
-    {
-    "source":"FROM MODEL",
-    "label":"ROLE",
-    "target":"TO MODEL"
-    },
     {
     "source":"ACTIVITY",
     "label":"UNDERLYING",
