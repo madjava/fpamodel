@@ -1,10 +1,4 @@
-$(function() {
-    plotCollaborationMap();
-});
+var _0x3b23 = ["\x2E\x2F\x64\x61\x74\x61\x2F\x66\x70\x61\x2D\x64\x61\x74\x61\x2E\x6A\x73\x6F\x6E", "\x67\x72\x61\x70\x68", "\x67\x72\x61\x70\x68\x2D\x69\x6E\x66\x6F", "\x67\x65\x74\x43\x6F\x6C\x6C\x61\x62\x6F\x72\x61\x74\x69\x6F\x6E\x44\x61\x74\x61", "\x6A\x73\x6F\x6E"];
+$(function() { plotCollaborationMap() });
 
-function plotCollaborationMap() {
-    d3.json("./data/fpa-data.json", function(dataJson) {
-        var model = new FPAModel(dataJson);
-        var plot = new CollaborationMap("graph", "graph-info", model.getCollaborationData());
-    });
-}
+function plotCollaborationMap() { d3[_0x3b23[4]](_0x3b23[0], function(_0xff5cx2) { var _0xff5cx3 = new FPAModel(_0xff5cx2); var _0xff5cx4 = new CollaborationMap(_0x3b23[1], _0x3b23[2], _0xff5cx3[_0x3b23[3]]()) }) }

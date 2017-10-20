@@ -1,7 +1,7 @@
 # Project Title
-FullPiture Concept Map
+FullPicture Concept Map
 ## Description
-Visual representaion of the FUllPicture data models in a Concept Map to show how Model link via ROLEs.
+Visual representaion of the FullPicture data models in a Concept Map to show how Models link via ROLEs.
 ## Getting Started
 JavaScript capable browser, internet connection and Python installed on the local machine
 ### Installing
@@ -18,4 +18,4 @@ python -m SimpleHTTPServer 3000 (use another port if 3000 is unavailable)
 
 ## Acknowledgments
 
-* Thomson Rueters FullPicture Team UK
+* Thomson Reuters FullPicture Team UK
