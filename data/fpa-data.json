@@ -1,0 +1,607 @@
+[
+ {
+   "fromModel": "ACTIVITY",
+   "toModel": "Elektron EDGE",
+   "role": "UNDERLYING"
+ },
+ {
+   "fromModel": "Aggregation Router",
+   "toModel": "Aggregation Router Port",
+   "role": "AGG ROUTER PORT"
+ },
+ {
+   "fromModel": "Aggregation Router",
+   "toModel": "CPOP",
+   "role": "POP"
+ },
+ {
+   "fromModel": "Aggregation Router",
+   "toModel": "Customer Circuit",
+   "role": "CIRCUIT"
+ },
+ {
+   "fromModel": "Aggregation Router",
+   "toModel": "Node",
+   "role": "NODE"
+ },
+ {
+   "fromModel": "Aggregation Router Port",
+   "toModel": "Aggregation Router",
+   "role": "AGG ROUTER"
+ },
+ {
+   "fromModel": "Aggregation Router Port",
+   "toModel": "Customer Circuit",
+   "role": "AGG ROUTER PORT"
+ },
+ {
+   "fromModel": "Aggregation Router Port",
+   "toModel": "Customer Circuit",
+   "role": "CIRCUIT"
+ },
+ {
+   "fromModel": "Aggregation Router Port",
+   "toModel": "Hub Circuit",
+   "role": "HUB CIRCUIT"
+ },
+ {
+   "fromModel": "C3",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "CPE NID",
+   "toModel": "Node",
+   "role": "NODE"
+ },
+ {
+   "fromModel": "CPE NID",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "CPE Router",
+   "toModel": "MLIP",
+   "role": "NAT"
+ },
+ {
+   "fromModel": "CPE Router",
+   "toModel": "NAT Server",
+   "role": "NAT"
+ },
+ {
+   "fromModel": "CPE Router",
+   "toModel": "RDFD",
+   "role": "NAT"
+ },
+ {
+   "fromModel": "CPE Router",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "CPE Router",
+   "toModel": "Transactions LAN",
+   "role": "TRANSACTION LAN"
+ },
+ {
+   "fromModel": "CPE Router",
+   "toModel": "Transactions LAN",
+   "role": "TRANSACTIONS LAN"
+ },
+ {
+   "fromModel": "CPE Switch",
+   "toModel": "CPE Switch Port",
+   "role": "CPE SWITCH PORT"
+ },
+ {
+   "fromModel": "CPE Switch",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "DSOS",
+   "role": "DSOS"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "Elektron EDGE",
+   "role": "EDGE"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "MLIP",
+   "role": "OTHER SERVER"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "Other Client Site Server",
+   "role": "EDGE"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "Other Client Site Server",
+   "role": "OTHER"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "Other Client Site Server",
+   "role": "OTHER SERVER"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "RDFD",
+   "role": "OTHER SERVER"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "RDFD",
+   "role": "RDFD"
+ },
+ {
+   "fromModel": "CPE Switch Port",
+   "toModel": "Time Series Proxy",
+   "role": "TSP"
+ },
+ {
+   "fromModel": "CPOP",
+   "toModel": "DPOP",
+   "role": "DEFAULT DPOP"
+ },
+ {
+   "fromModel": "CPOP",
+   "toModel": "DPOP",
+   "role": "PE2"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "Aggregation Router",
+   "role": "AGG ROUTER"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "Aggregation Router Port",
+   "role": "AGG ROUTER PORT"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "CPE NID",
+   "role": "CPE NID"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "CPE Router",
+   "role": "CPE ROUTER"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "CPE Switch",
+   "role": "CPE SWITCH"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "Hub Circuit",
+   "role": "HUB CIRCUIT"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "Service Instance",
+   "role": "SERVICE INSTANCE"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "Subnet",
+   "role": "SUBNET"
+ },
+ {
+   "fromModel": "Customer Circuit",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Customer User",
+   "toModel": "FXT Application Usage",
+   "role": "Usage"
+ },
+ {
+   "fromModel": "Customer User",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "DPOP",
+   "toModel": "CPOP",
+   "role": "DEFAULT CPOP"
+ },
+ {
+   "fromModel": "DSOS",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Device Permissions",
+   "toModel": "Permission",
+   "role": "PERMISSION"
+ },
+ {
+   "fromModel": "Discrepancy Report",
+   "toModel": "Elektron ADS Server",
+   "role": "DISCREPANCY"
+ },
+ {
+   "fromModel": "Discrepancy Report",
+   "toModel": "Elektron ADS Server",
+   "role": "MISSING"
+ },
+ {
+   "fromModel": "Discrepancy Report",
+   "toModel": "Elektron EDGE",
+   "role": "DISCREPANCY"
+ },
+ {
+   "fromModel": "Discrepancy Report",
+   "toModel": "Elektron EDGE",
+   "role": "MISSING"
+ },
+ {
+   "fromModel": "Discrepancy Report",
+   "toModel": "Subscriber",
+   "role": "DISCREPANCY"
+ },
+ {
+   "fromModel": "Discrepancy Report",
+   "toModel": "Subscription",
+   "role": "DISCREPANCY"
+ },
+ {
+   "fromModel": "EMS Customer",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "EMS Customer",
+   "toModel": "Subscriber",
+   "role": "SUPPORTED BY"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron ADS Server",
+   "role": "CHILD"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron ADS Server",
+   "role": "INACTIVE-SECONDARY"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron ADS Server",
+   "role": "SECONDARY"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron ADS Server",
+   "role": "SECONDARY_INACTIVE"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron ADS Server",
+   "role": "SECONDARY_PENDING"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron EDGE",
+   "role": "ACTIVE CHILD"
+ },
+ {
+   "fromModel": "Elektron ADS Server",
+   "toModel": "Elektron EDGE",
+   "role": "CHILD"
+ },
+ {
+   "fromModel": "Elektron Direct Feed",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Elektron EDGE",
+   "toModel": "CPE Switch Port",
+   "role": "SECONDARY"
+ },
+ {
+   "fromModel": "Elektron EDGE",
+   "toModel": "CPE Switch Port",
+   "role": "SWITCH PORT"
+ },
+ {
+   "fromModel": "Elektron EDGE",
+   "toModel": "Elektron ADS Server",
+   "role": "PRIMARY"
+ },
+ {
+   "fromModel": "Elektron EDGE",
+   "toModel": "Elektron ADS Server",
+   "role": "SECONDARY"
+ },
+ {
+   "fromModel": "Elektron EDGE",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "FXT Application Usage",
+   "toModel": "Customer User",
+   "role": "Customer User"
+ },
+ {
+   "fromModel": "Financial Community Network",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Hub Circuit",
+   "toModel": "Aggregation Router Port",
+   "role": "AGG ROUTER PORT"
+ },
+ {
+   "fromModel": "Hub Circuit",
+   "toModel": "Customer Circuit",
+   "role": "CIRCUIT"
+ },
+ {
+   "fromModel": "Loader Information",
+   "toModel": "Loader Report",
+   "role": "RUN REPORT"
+ },
+ {
+   "fromModel": "Loader Report",
+   "toModel": "Batch Generation Report",
+   "role": "Batch Response"
+ },
+ {
+   "fromModel": "Loader Report",
+   "toModel": "Loader Information",
+   "role": "RUN INFORMATION"
+ },
+ {
+   "fromModel": "MLIP",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "NAT Server",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Node",
+   "toModel": "Aggregation Router",
+   "role": "AGG ROUTER"
+ },
+ {
+   "fromModel": "Node",
+   "toModel": "CPE NID",
+   "role": "CPE NID"
+ },
+ {
+   "fromModel": "Other Client Site Server",
+   "toModel": "Other Client Site Server",
+   "role": "EDGE"
+ },
+ {
+   "fromModel": "Other Client Site Server",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "PLI Category",
+   "toModel": "Order Catalogue",
+   "role": "COMMS"
+ },
+ {
+   "fromModel": "PLI Category",
+   "toModel": "PLI Category",
+   "role": "COMMS"
+ },
+ {
+   "fromModel": "PLI Category",
+   "toModel": "PLI Category",
+   "role": "EQUIP"
+ },
+ {
+   "fromModel": "Quote Type",
+   "toModel": "Order Catalogue",
+   "role": "CMC"
+ },
+ {
+   "fromModel": "Quote Type",
+   "toModel": "Order Catalogue",
+   "role": "METRO - NON-RESILLIENT"
+ },
+ {
+   "fromModel": "Quote Type",
+   "toModel": "Order Catalogue",
+   "role": "METRO - RESILLIENT"
+ },
+ {
+   "fromModel": "Quote Type",
+   "toModel": "Order Catalogue",
+   "role": "NON-METRO NON-RESILIENT"
+ },
+ {
+   "fromModel": "Quote Type",
+   "toModel": "Order Catalogue",
+   "role": "NON-METRO RESILIENT"
+ },
+ {
+   "fromModel": "RDFD",
+   "toModel": "RDFD",
+   "role": "RDFD"
+ },
+ {
+   "fromModel": "RDFD",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Aggregation Router",
+   "role": "PRIMARY AGG ROUTER"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Aggregation Router",
+   "role": "SECONDARY AGG ROUTER"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "CPE NID",
+   "role": "PRIMARY NID"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "CPE NID",
+   "role": "SECONDARY NID"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "CPE Router",
+   "role": "PRIMARY ROUTER"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "CPE Router",
+   "role": "SECONDARY ROUTER"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "CPE Switch",
+   "role": "SECONDARY 1GB SWITCH"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Customer Circuit",
+   "role": "CIRCUIT"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Customer Circuit",
+   "role": "PRIMARY CUSTOMER CIRCUIT"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Customer Circuit",
+   "role": "SECONDARY CUSTOMER CIRCUIT"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Hub Circuit",
+   "role": "PRIMARY HUB CIRCUIT"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Hub Circuit",
+   "role": "SECONDARY HUB CIRCUIT"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Snapshot",
+   "role": "SNAPSHOT"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Subscriber",
+   "role": "SPLIT SITE"
+ },
+ {
+   "fromModel": "Service Instance",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Subnet",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Subnet",
+   "toModel": "TCID",
+   "role": "TCID"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "COMMS SITE"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "EMS CUSTOMER"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "EQUIPMENT SITE"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "SPLIT SITE"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "SUPPORTED BY"
+ },
+ {
+   "fromModel": "Subscriber",
+   "toModel": "Subscriber",
+   "role": "SUPPORTS"
+ },
+ {
+   "fromModel": "TCID",
+   "toModel": "Subnet",
+   "role": "SUBNET"
+ },
+ {
+   "fromModel": "TCID",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "TCID",
+   "toModel": "TCSS",
+   "role": "TCSS"
+ },
+ {
+   "fromModel": "TCSS",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "TCSS",
+   "toModel": "TCID",
+   "role": "TCID"
+ },
+ {
+   "fromModel": "Time Series Proxy",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "Transactions LAN",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ },
+ {
+   "fromModel": "VLAN",
+   "toModel": "Subscriber",
+   "role": "SUBSCRIBER"
+ }
+]

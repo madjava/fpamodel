@@ -1,0 +1,47 @@
+.conceptmap #ditem-thumbs li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.conceptmap #ditem-thumbs li a {
+  display: block;
+  border: 4px solid #fff;
+}
+.conceptmap #ditem-thumbs li a:hover {
+  border-color: #0da4d3;
+}
+
+/* map */
+.conceptmap svg {
+font-family: Abel,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+
+}
+.conceptmap .ditem {
+  height: 17px;
+}
+.conceptmap .ditem > text{
+  font-size: 10px;
+  fill:#e0e0e0;;
+} 
+.conceptmap text.label{
+  font-size: 15px;
+}
+.conceptmap .ditem > rect {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  height:17px;
+}
+.conceptmap path {
+  fill: none;
+}
+.conceptmap .ditem, .conceptmap .node, .conceptmap .detail text, .conceptmap .all-ditems {
+  cursor: pointer;
+}
+.conceptmap .all-ditems {
+  fill: #aaa;
+}
+.conceptmap .detail a text:hover, .conceptmap text.all-ditems:hover {
+  text-decoration: underline;
+}

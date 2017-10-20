@@ -1,0 +1,62 @@
+{
+    "ditems": [
+        {
+            "type": "ditem",
+            "name": "Tim Head",
+            "description": "<a href=\"http://betatim.github.io/\">Tim Head</a>",
+            "ditem": 5,
+            "slug": "ditem",
+            "links": [
+                "yadage",
+                "scikit-optimize",
+                "DASPOS",
+                "DIANA",
+                "LHCb"
+            ]
+        },
+        {
+            "type": "ditem",
+            "name": "Test Data",
+            "description": "<a href=\"http://betatim.github.io/\">Tim Head</a>",
+            "ditem": 2,
+            "slug": "ditem",
+            "links": ["DASPOS", "yadage"]
+        }
+    ],
+    "projects": [
+        {
+            "type": "project",
+            "name": "yadage",
+            "description": "yadage is a language and engine for flexible, distributed workflows. Originally written by Lukas Heinrich to serve as the backend for Recast, it is now being extended via MSDSE, DASPOS, and CERN and integrated into various projects)- <a href=\"http://yadage.readthedocs.io\">docs</a> | <a href=\"https://github.com/diana-hep/yadage\">code</a>",
+            "slug": "cyberinfrastructure"
+        },
+        {
+            "type": "project",
+            "name": "scikit-optimize",
+            "description": "",
+            "slug": "software"
+        }
+    ],
+    "collaborations": [
+        {
+            "type": "collaboration",
+            "name": "LHCb",
+            "description": "<a href=\"http://lhcb-public.web.cern.ch/lhcb-public/\">LHCb is an experiment set up to explore what happened after the Big Bang that allowed matter to survive and build the Universe we inhabit today</a>",
+            "slug": "lhcb",
+            "group": 1
+        },
+        {
+            "type": "collaboration",
+            "name": "DIANA",
+            "description": "<a href=\"http://diana-hep.org\">Sustainable Software for High Energy Physics</a>",
+            "slug": "diana",
+            "group": 1
+        },
+        {
+            "type": "collaboration",
+            "name": "DASPOS",
+            "description": "<a href=\"https://daspos.crc.nd.edu\">Data And Software Preservation for High Energy Physics</a>",
+            "slug": "daspos"
+        }
+    ]
+}
